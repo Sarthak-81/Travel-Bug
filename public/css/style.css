@@ -1,0 +1,83 @@
+body{
+    font-family: 'Baskervville', serif !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-family: 'Ubuntu Condensed', sans-serif !important;
+    font-family: 'Varela Round', sans-serif !important;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-globe{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a :hover{
+    text-decoration: underline;
+}
+
+.f-info-social, .f-info-links, .f-info-brand{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.f-info-social i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 6.5rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listing-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-img-overlay{
+    opacity: 0;
+
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: whitesmoke;
+}

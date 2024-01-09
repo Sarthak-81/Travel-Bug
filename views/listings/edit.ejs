@@ -1,0 +1,34 @@
+<%- layout("/layouts/boilerplate") %>
+  <body>
+    <h3>Edit your Listing</h3>
+    <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" novalidate class="needs-validation">
+      <input name="listing[title]" value="<%= listing.title %>" type="text" required/>
+      <br /><br />
+      <textarea name="listing[description]" required>
+<%= listing.description %></textarea
+      >
+      <br /><br />
+      <input name="listing[image]" value="<%= listing.image %>" type="text" required/>
+      <br /><br />
+      <input name="listing[price]" value="<%= listing.price %>" type="number" required/>
+      <br /><br />
+      <input
+        name="listing[country]"
+        value="<%= listing.country %>"
+        type="text"
+        required
+      />
+      <br /><br />
+      <input
+        name="listing[location]"
+        value="<%= listing.location %>"
+        type="text"
+        required
+      />
+      <br /><br />
+      <button>Edit</button>
+    </form>
+  </body>
+
+<script src="/js/script.js"></script>
+
